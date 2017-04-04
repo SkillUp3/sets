@@ -56,3 +56,4 @@ public final class HeavenlyBody {
         return this.name.hashCode() +57;
     }
 }
+

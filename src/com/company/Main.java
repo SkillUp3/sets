@@ -6,6 +6,21 @@ import java.util.Map;
 import java.util.Set;
 
 public class Main {
+
+    /**
+     * When overriding the equals() method in the HeavenlyBody class, we
+     * were careful to make sure that it would not return true if a HeavenlyBody
+     * was compared to a subclass of itself.
+     *
+     * We did that to demonstrate that method, but it was actually
+     * unnecessary in the HeavenlyBody class.
+     *
+     * The mini challenge is just a question: why was it unnecessary?
+     *
+     *]
+
+     *
+     **/
     private static Map<String, HeavenlyBody> solarSystem = new HashMap<>();
     private static Set<HeavenlyBody> planets = new HashSet<>();
 
