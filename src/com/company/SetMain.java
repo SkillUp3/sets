@@ -55,7 +55,7 @@ public class SetMain {
 
         System.out.println("divine - nature");
         Set<String> diff2 = new HashSet<>(divine);
-        diff1.removeAll(nature);
+        diff2.removeAll(nature);
         printSet(diff2);
 
         Set<String> unionTest = new HashSet<>(nature);
